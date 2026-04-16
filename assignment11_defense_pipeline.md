@@ -144,11 +144,10 @@ Submit a working `.ipynb` notebook (or `.py` files) with:
 |----------|--------|----------------|
 | **Pipeline runs end-to-end** | 10 | All components initialized, agent responds to queries |
 | **Rate Limiter works** | 8 | Test 3 output shows first N requests pass, rest blocked with wait time |
-| **Input Guardrails work** | 10 | Test 2 attacks blocked at input layer (show which pattern matched) |
-| **Output Guardrails work** | 10 | PII/secrets redacted from responses (show before vs after) |
-| **LLM-as-Judge works** | 10 | Multi-criteria scores printed for each response (safety, relevance, accuracy, tone) |
-| **Audit log + monitoring** | 7 | `audit_log.json` exported with 20+ entries. Alerts fire when thresholds exceeded |
-| **Code comments** | 5 | Every function and class has a clear comment explaining what it does and why |
+| **Input Guardrails work** | 12 | Test 2 attacks blocked at input layer (show which pattern matched) |
+| **Output Guardrails work** | 12 | PII/secrets redacted from responses (show before vs after) |
+| **LLM-as-Judge works** | 12 | Multi-criteria scores printed for each response (safety, relevance, accuracy, tone) |
+| **Code comments** | 6 | Every function and class has a clear comment explaining what it does and why |
 | **Total** | **60** | |
 
 **Code comments are required.** For each function/class, explain:
